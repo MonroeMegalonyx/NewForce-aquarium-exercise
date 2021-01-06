@@ -5,6 +5,43 @@
     font-family: Helvetica, Arial, sans-serif
 }
 
-img {
-    height: 20vh;
+/* Page Header components */
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 128px;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+/* Main Content components */
+
+
+/* Fish List components */
+.aquarium{
+    display: flex;
+    flex-direction: column;
+    width: 60vw; 
+}
+
+.aquarium h2{
+    align-self: center;
+}
+
+/* Fish Card components */
+.aquarium__fish{
+    display: flex;
+    align-items: center
+}
+
+.aquarium__fish img{
+    height: fit-content
 }
