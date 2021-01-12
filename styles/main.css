@@ -1,47 +1,94 @@
+/* Default Page Styling */
+
 * {
-    border: 1px dotted lightblue;
-    padding: 1em;
-    margin: 1em;
-    font-family: Helvetica, Arial, sans-serif
-}
-
-/* Page Header components */
-header{
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  img {
+    height: 20vh;
+  }
+  
+  h2 {
+    text-align: center;
+    color: blueviolet;
+  }
+  
+  header {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
-}
-
-header img{
-    height: 128px;
-}
-
-header h1{
-    font-weight: bold;
-    font-size: 64px;
-}
-
-/* Main Content components */
-
-
-/* Fish List components */
-.aquarium{
+    justify-content: center;
+    border: 1px solid black;
+    background-color: greenyellow;
+  }
+  
+  article{
+    background-color: hotpink;
+  }
+  
+  section {
+    background-color: brown;
+  }
+  
+  .container {
     display: flex;
-    flex-direction: column;
-    width: 60vw; 
-}
-
-.aquarium h2{
-    align-self: center;
-}
-
-/* Fish Card components */
-.aquarium__fish{
+  }
+  
+  .main-content {
+    padding-left: 2em;
+    width: 75%;
+    border: 1px solid black;
+  }
+  
+  aside {
+    border: 1px solid black;
+    padding: 1em;
+    background-color: magenta;
+  }
+  
+  .fish-card {
     display: flex;
-    align-items: center
-}
-
-.aquarium__fish img{
-    height: fit-content
-}
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 1em;
+  }
+  
+  .fish-card__text {
+    width: 70%;
+    text-align: center;
+  }
+  
+  .location-list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .location-card {
+    border: 1px solid black;
+    margin: 1em;
+  }
+  
+  /* Nav Bar Component */
+  .nav-container {
+    justify-content: center;
+    background-color: rgb(255, 102, 0);
+  }
+  
+  .nav-item {
+    padding: 2em;
+    list-style: none;
+  
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover {
+    color: rgb(1, 141, 141);
+  }
+  
+  
+  
+  
+  
