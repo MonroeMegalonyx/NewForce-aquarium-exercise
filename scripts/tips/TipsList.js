@@ -1,7 +1,6 @@
 import { useTips } from "./TipsDataProvider.js";
 import { Tips } from "./Tips.js";
 
-// console.log("this is fish collection", fishCollection)
 let tipContainer = document.querySelector("#fishcare-tips");
 
 export function TipList() {

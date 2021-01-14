@@ -14,3 +14,7 @@ import { TipList } from "./tips/TipsList.js";
 
 TipList();
 
+import { LocalesList} from "./locations/LocationsList.js"
+
+LocalesList();
+
