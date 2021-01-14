@@ -9,3 +9,8 @@
 import { FishList } from "./fish/FishList.js";
 
 FishList();
+
+import { TipList } from "./tips/TipsList.js";
+
+TipList();
+
