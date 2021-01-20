@@ -18,3 +18,14 @@ import { LocalesList} from "./locations/LocationsList.js"
 
 LocalesList();
 
+import { mostHolyFish } from "./fish/FishDataProvider.js";
+
+mostHolyFish();
+
+import { soldierFish } from "./fish/FishDataProvider.js";
+
+soldierFish();
+
+import { nonHolyFish } from "./fish/FishDataProvider.js";
+
+nonHolyFish();
